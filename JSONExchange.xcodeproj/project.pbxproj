@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96970EF61E92977E00EEFBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970EF51E92977E00EEFBAC /* AppDelegate.m */; };
+		96970EF91E92977E00EEFBAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970EF81E92977E00EEFBAC /* main.m */; };
+		96970EFC1E92977E00EEFBAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970EFB1E92977E00EEFBAC /* ViewController.m */; };
+		96970EFE1E92977E00EEFBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96970EFD1E92977E00EEFBAC /* Assets.xcassets */; };
+		96970F011E92977E00EEFBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96970EFF1E92977E00EEFBAC /* Main.storyboard */; };
+		96970F0C1E92977E00EEFBAC /* JSONExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970F0B1E92977E00EEFBAC /* JSONExchangeTests.m */; };
+		96970F1E1E92EB1B00EEFBAC /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970F1D1E92EB1B00EEFBAC /* HTTPServer.m */; };
+		96970F211E92F3D000EEFBAC /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970F201E92F3D000EEFBAC /* HTTPConnection.m */; };
+		96970F241E943CF500EEFBAC /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96970F231E943CF500EEFBAC /* HTTPRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96970F081E92977E00EEFBAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96970EE91E92977E00EEFBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96970EF01E92977E00EEFBAC;
+			remoteInfo = JSONExchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96970EF11E92977E00EEFBAC /* JSONExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96970EF41E92977E00EEFBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96970EF51E92977E00EEFBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96970EF81E92977E00EEFBAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96970EFA1E92977E00EEFBAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96970EFB1E92977E00EEFBAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96970EFD1E92977E00EEFBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96970F001E92977E00EEFBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96970F021E92977E00EEFBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96970F071E92977E00EEFBAC /* JSONExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96970F0B1E92977E00EEFBAC /* JSONExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONExchangeTests.m; sourceTree = "<group>"; };
+		96970F0D1E92977E00EEFBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96970F1C1E92EB1B00EEFBAC /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		96970F1D1E92EB1B00EEFBAC /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		96970F1F1E92F3D000EEFBAC /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		96970F201E92F3D000EEFBAC /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		96970F221E943CF500EEFBAC /* HTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		96970F231E943CF500EEFBAC /* HTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96970EEE1E92977E00EEFBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96970F041E92977E00EEFBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96970EE81E92977E00EEFBAC = {
+			isa = PBXGroup;
+			children = (
+				96970EF31E92977E00EEFBAC /* JSONExchange */,
+				96970F0A1E92977E00EEFBAC /* JSONExchangeTests */,
+				96970EF21E92977E00EEFBAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96970EF21E92977E00EEFBAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96970EF11E92977E00EEFBAC /* JSONExchange.app */,
+				96970F071E92977E00EEFBAC /* JSONExchangeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96970EF31E92977E00EEFBAC /* JSONExchange */ = {
+			isa = PBXGroup;
+			children = (
+				96970EF41E92977E00EEFBAC /* AppDelegate.h */,
+				96970EF51E92977E00EEFBAC /* AppDelegate.m */,
+				96970EFA1E92977E00EEFBAC /* ViewController.h */,
+				96970EFB1E92977E00EEFBAC /* ViewController.m */,
+				96970EFD1E92977E00EEFBAC /* Assets.xcassets */,
+				96970EFF1E92977E00EEFBAC /* Main.storyboard */,
+				96970F021E92977E00EEFBAC /* Info.plist */,
+				96970EF71E92977E00EEFBAC /* Supporting Files */,
+				96970F1C1E92EB1B00EEFBAC /* HTTPServer.h */,
+				96970F1D1E92EB1B00EEFBAC /* HTTPServer.m */,
+				96970F1F1E92F3D000EEFBAC /* HTTPConnection.h */,
+				96970F201E92F3D000EEFBAC /* HTTPConnection.m */,
+				96970F221E943CF500EEFBAC /* HTTPRequest.h */,
+				96970F231E943CF500EEFBAC /* HTTPRequest.m */,
+			);
+			path = JSONExchange;
+			sourceTree = "<group>";
+		};
+		96970EF71E92977E00EEFBAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96970EF81E92977E00EEFBAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96970F0A1E92977E00EEFBAC /* JSONExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				96970F0B1E92977E00EEFBAC /* JSONExchangeTests.m */,
+				96970F0D1E92977E00EEFBAC /* Info.plist */,
+			);
+			path = JSONExchangeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96970EF01E92977E00EEFBAC /* JSONExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96970F101E92977E00EEFBAC /* Build configuration list for PBXNativeTarget "JSONExchange" */;
+			buildPhases = (
+				96970EED1E92977E00EEFBAC /* Sources */,
+				96970EEE1E92977E00EEFBAC /* Frameworks */,
+				96970EEF1E92977E00EEFBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONExchange;
+			productName = JSONExchange;
+			productReference = 96970EF11E92977E00EEFBAC /* JSONExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96970F061E92977E00EEFBAC /* JSONExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96970F131E92977E00EEFBAC /* Build configuration list for PBXNativeTarget "JSONExchangeTests" */;
+			buildPhases = (
+				96970F031E92977E00EEFBAC /* Sources */,
+				96970F041E92977E00EEFBAC /* Frameworks */,
+				96970F051E92977E00EEFBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96970F091E92977E00EEFBAC /* PBXTargetDependency */,
+			);
+			name = JSONExchangeTests;
+			productName = JSONExchangeTests;
+			productReference = 96970F071E92977E00EEFBAC /* JSONExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96970EE91E92977E00EEFBAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Chemer;
+				TargetAttributes = {
+					96970EF01E92977E00EEFBAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					96970F061E92977E00EEFBAC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96970EF01E92977E00EEFBAC;
+					};
+				};
+			};
+			buildConfigurationList = 96970EEC1E92977E00EEFBAC /* Build configuration list for PBXProject "JSONExchange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96970EE81E92977E00EEFBAC;
+			productRefGroup = 96970EF21E92977E00EEFBAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96970EF01E92977E00EEFBAC /* JSONExchange */,
+				96970F061E92977E00EEFBAC /* JSONExchangeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96970EEF1E92977E00EEFBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96970EFE1E92977E00EEFBAC /* Assets.xcassets in Resources */,
+				96970F011E92977E00EEFBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96970F051E92977E00EEFBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96970EED1E92977E00EEFBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96970EFC1E92977E00EEFBAC /* ViewController.m in Sources */,
+				96970F241E943CF500EEFBAC /* HTTPRequest.m in Sources */,
+				96970EF91E92977E00EEFBAC /* main.m in Sources */,
+				96970F1E1E92EB1B00EEFBAC /* HTTPServer.m in Sources */,
+				96970EF61E92977E00EEFBAC /* AppDelegate.m in Sources */,
+				96970F211E92F3D000EEFBAC /* HTTPConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96970F031E92977E00EEFBAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96970F0C1E92977E00EEFBAC /* JSONExchangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96970F091E92977E00EEFBAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96970EF01E92977E00EEFBAC /* JSONExchange */;
+			targetProxy = 96970F081E92977E00EEFBAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96970EFF1E92977E00EEFBAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96970F001E92977E00EEFBAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96970F0E1E92977E00EEFBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96970F0F1E92977E00EEFBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96970F111E92977E00EEFBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemer.com.ua.JSONExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96970F121E92977E00EEFBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemer.com.ua.JSONExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96970F141E92977E00EEFBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemer.com.ua.JSONExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONExchange.app/Contents/MacOS/JSONExchange";
+			};
+			name = Debug;
+		};
+		96970F151E92977E00EEFBAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JSONExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chemer.com.ua.JSONExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONExchange.app/Contents/MacOS/JSONExchange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96970EEC1E92977E00EEFBAC /* Build configuration list for PBXProject "JSONExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96970F0E1E92977E00EEFBAC /* Debug */,
+				96970F0F1E92977E00EEFBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96970F101E92977E00EEFBAC /* Build configuration list for PBXNativeTarget "JSONExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96970F111E92977E00EEFBAC /* Debug */,
+				96970F121E92977E00EEFBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96970F131E92977E00EEFBAC /* Build configuration list for PBXNativeTarget "JSONExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96970F141E92977E00EEFBAC /* Debug */,
+				96970F151E92977E00EEFBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96970EE91E92977E00EEFBAC /* Project object */;
+}
